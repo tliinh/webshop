@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Cửa hàng bánh Pizza</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="/pizza.css">
+    <script src="pizza.js"></script>
+    <link rel="stylesheet" href="fontpizza.css">
+        <style>
+           body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+        </style>
+</head>
+<body>
+
+<!-- Start Content -->
+    <div id="home" class="pizza-content">
+
+<!-- Navbar (Sits on top) -->
+    <div class="pizza-top pizza-bar pizza-xlarge pizza-black pizza-opacity-min">
+          <a href="#home" class="pizza-bar-item pizza-button">HOME</a>
+          <a href="#menu" class="pizza-bar-item pizza-button">MENU</a>
+          <a href="#about" class="pizza-bar-item pizza-button">ABOUT</a>
+          <a href="#contact" class="pizza-bar-item pizza-button">CONTACT</a>
+    </div>
+  
+<!-- Header image -->
+<div style="height:800px;background-image:url('https://img.freepik.com/premium-vector/pizza-icon-fast-food-collection-food-icon-isolated_138676-504.jpg?w=740');background-size:cover"
+        class="pizza-display-container pizza-grayscale-min">
+    <div class="pizza-display-bottomleft">
+       <span class="pizza-tag pizza-xlarge">Giờ mở cửa: 10am đến 12pm</span>
+    </div>
+    <div class="pizza-display-middle pizza-center">
+       <span class="pizza-text-white" style="font-size:100px">Bánh Pizza </span>
+    <p><a href="#menu" class="pizza-button pizza-xxlarge pizza-black">Đi tới menu bánh</a></p>
+    </div>
+</div>
+
+<!-- Menu -->
+<div id="menu" class="pizza-container pizza-black pizza-xxlarge pizza-padding-64">
+<h1 class="pizza-center pizza-jumbo pizza-padding-32">THE MENU</h1>
+<div class="pizza-row pizza-center pizza-border pizza-border-dark-grey">
+<a href="#pizza"><div class="pizza-third pizza-padding-large pizza-red">Pizza</div></a>
+<a href="#pasta"><div class="pizza-third pizza-padding-large pizza-hover-red">Mì Ý</div></a>
+<a href="#starters"><div class="pizza-third pizza-padding-large pizza-hover-red">Món Khai Vị</div></a>
+</div>
+
+<div id="pizza" class="pizza-container pizza-white pizza-padding-32">
+          <h1><b>Pizaa Margherita</b> <span class="pizza-right pizza-tag pizza-dark-grey pizza-round">292.000 VND | $12.50 </span></h1>
+          <p class="pizza-text-grey">Cà chua tươi, phô mai mozzarella tươi, húng quế tươi</p>
+          <hr>
+          <h1><b>Pizaa Phô mai (Formaggio)</b> <span class="pizza-right pizza-tag pizza-dark-grey pizza-round">363.000 VND | $15.50</span></h1>
+          <p class="pizza-text-grey">Bốn loại phô mai (Mozzarella, Parmesan, Pecorino, Jarlsberg)</p>
+          <hr>
+          <h1><b>Pizza kèm thịt</b> <span class="pizza-tag pizza-red pizza-round">Hot!</span><span class="pizza-right pizza-tag pizza-dark-grey pizza-round">468.000 | $20.00</span></h1>
+          <p class="pizza-text-grey">Cà chua tươi, Mozzarella, Pepporoni nóng, xúc xích nóng, thịt bò, gà</p>
+      </div>
+
+      <h1 id="pasta" class="pizza-center pizza-jumbo pizza-padding-32">Mì Ý</h1>
+          <div class="pizza-container pizza-white pizza-padding-32">
+          <h1><b>Mỳ Nướng</b> <span class="pizza-tag pizza-grey pizza-round">Phổ biến</span><span class="pizza-right pizza-tag pizza-dark-grey pizza-round">317.000 VND | $13.50</span></h1>
+          <p class="pizza-text-grey">Nước sốt đặc biệt, mozzarella, parmesan, thịt bò xay</p>
+          <hr>
+          <h1><b>Ravioli</b> <span class="pizza-right pizza-tag pizza-dark-grey pizza-round">339.000 VND | $14.50</span></h1>
+          <p class="pizza-text-grey">Ravioli chứa đầy pho mát</p>
+          <hr>
+          <h1><b>Mì Ý truyền thống</b> <span class="pizza-right pizza-tag pizza-dark-grey pizza-round">258.000 VND | $11.00</span></h1>
+          <p class="pizza-text-grey">Cà chua tươi, hành tây, thịt bò xay</p>
+      </div>
+
+      <h1 id="starters" class="pizza-center pizza-jumbo pizza-padding-32">Món Khai Vị</h1>
+      <div class="pizza-container pizza-white pizza-padding-32">
+          <h1><b>Súp hôm nay</b> <span class="pizza-tag pizza-grey pizza-round">Theo mùa</span><span class="pizza-right pizza-tag pizza-dark-grey pizza-round">129.000 VND | $5.50</span></h1>
+          <p class="pizza-text-grey">Hỏi người phục vụ</p>
+          <hr>
+          <h1><b>Bruschetta (truyền thống)</b> <span class="pizza-right pizza-tag pizza-dark-grey pizza-round">199.000 VND | $8.50</span></h1>
+          <p class="pizza-text-grey">Bánh mì với pesto, cà chua, hành tây, tỏi</p>
+          <hr>
+          <h1><b>Bánh mì bơ tỏi</b> <span class="pizza-right pizza-tag pizza-dark-grey pizza-round">223.000 VND | $9.50</span></h1>
+          <p class="pizza-text-grey">Ciabatta nướng, bơ tỏi, hành tây</p>
+      </div>
+</div>
+
+<!-- About -->
+<div id="about" class="pizza-container pizza-red pizza-grayscale pizza-xlarge pizza-padding-64">
+       <h1 class="pizza-center pizza-jumbo">About</h1>
+       <br>Quán pizza tại thành phố Hưng Yên được mở từ năm 2003 bởi Ms. Linh. </br> Quán này đã trở thành một địa điểm ăn uống phổ biến cho người dân địa phương và du khách. </dbr> Với các món pizza ngon miệng và phong cách phục vụ chuyên nghiệp, quán của Ms Linh là một lựa chọn tuyệt vời cho những ai muốn thưởng thức hương vị của ẩm thực Ý ngay tại Hưng Yên.</p>
+       <p><strong>Đầu bếp?</strong> Ms.Linh<img src="https://png.pngtree.com/png-clipart/20210309/original/pngtree-cute-female-chef-is-wearing-an-apron-a-hat-holding-silver-png-image_5820351.jpg" style="width:150px" class="pizza-circle pizza-right" alt="Chef"></p>
+       <p>Chúng tôi tự hào về nội thất của chúng tôi</p>
+       <p class="pizza-padding-16 pizza-stretch">
+          <img src="https://png.pngtree.com/png-clipart/20210311/original/pngtree-cute-pizza-cartoon-illustration-png-image_6056669.jpg" style="width:100%" alt="Restaurant"></p></p>
+       <h1><b>Giờ mở cửa</b></h1>
+          <div class="pizza-row">
+              <div class="pizza-half">
+                  <p>Thứ hai & Thứ ba Đóng cửa</p>
+                  <p>Thứ tư 10.00 - 24.00</p>
+                  <p>Thứ năm 10:00 - 24:00</p>
+              </div>
+             <div class="pizza-half">
+                  <p>Thứ sáu 10:00 - 12:00</p>
+                  <p>Thứ bảy 10:00 - 23:00</p>
+                  <p>Chủ Nhật đóng cửa</p>
+              </div>
+          </div>    
+</div>
+
+<!-- Contact -->
+
+<img id="contact" src="https://i.pinimg.com/736x/bc/8a/72/bc8a728e1a723655ea655ce6db89f5b8--rosario-santa-fe.jpg" class="pizza-image pizza-greyscale" alt="Map" style="width:100%">
+<div class="pizza-container pizza-blue-grey pizza-grayscale-min pizza-xlarge pizza-padding-top-32">
+     <h1 class="pizza-center pizza-jumbo">Liên hệ</h1>
+          <p>Tìm chúng tôi tại một số địa chỉ ở một nơi nào đó hoặc gọi cho chúng tôi theo số 0123456789</p>
+          <p>Chúng tôi cung cấp dịch vụ phục vụ đầy đủ cho bất kỳ sự kiện, lớn hay nhỏ. Chúng tôi hiểu nhu cầu của bạn và chúng tôi sẽ phục vụ thực phẩm để đáp ứng các tiêu chí lớn của tất cả mọi người.</p>
+          <p class="pizza-xxlarge"><b>Đặt trước</b> một hóa đơn, ghi chú đặc biệt cho ngày hôm nay hoặc gửi cho chúng tôi một tin nhắn: </p>
+     <form action="/action_page.php" target="_blank">
+          <p><input class="pizza-input pizza-padding-16 pizza-border" type="text" placeholder="Tên của bạn" required name="Tên"></p>
+          <p><input class="pizza-input pizza-padding-16 pizza-border" type="number" placeholder="Hóa đơn cho bao nhiêu người?" required name="Số người"></p>
+          <p><input class="pizza-input pizza-padding-16 pizza-border" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+          <p><input class="pizza-input pizza-padding-16 pizza-border" type="text" placeholder="Tin nhắn \ Ghi chú đặc biệt" required name="Message"></p>
+          <p><button class="pizza-button pizza-light-grey pizza-block" type="submit">GỬI TIN NHẮN</button></p>
+    </form>
+    <p class="pizza-center pizza-xlarge pizza-padding-32">Powered by <a href="https://www.instagram.com/_.tliinh/" title="Linh" target="_blank">Linh</a></p>
+</div>
+
+<!-- End Content -->
+</div>
+</body>
+</html>
